@@ -15,7 +15,7 @@ const props = {
   // deprecated react prop
   valueLink: true,
 
-  // https://github.com/facebook/react/blob/d7157651f7b72d9888ctrue123e191f9b88cd8f41e9/src/renderers/dom/shared/HTMLDOMPropertyConfig.js
+  // https://github.com/facebook/react/blob/main/packages/react-dom-bindings/src/shared/possibleStandardNames.js
   /**
    * Standard Properties
    */
@@ -69,6 +69,7 @@ const props = {
   draggable: true,
   encType: true,
   enterKeyHint: true,
+  fetchPriority: true,
   form: true,
   formAction: true,
   formEncType: true,
